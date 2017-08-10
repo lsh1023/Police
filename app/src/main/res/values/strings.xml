@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Police</string>
+
+    <!--主页的信息-->
+    <string name="tab_home">首页</string>
+    <string name="tab_matter">事项中心</string>
+    <string name="tab_news">新闻中心</string>
+    <string name="tab_mine">个人中心</string>
+    <!--个人中心-->
+    <string name="install">安装</string>
+    <string name="about_help">关于帮助</string>
+    <string name="check_version">检查更新</string>
+    <string name="guide">新手引导</string>
+    <string name="sys_setting">系统设置</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="friend_recommend">好友推荐</string>
+    <string name="my_business">我的业务</string>
+    <string name="feed_back_hint">感谢你对本软件使用的反馈，请填写正确的手机号,QQ或Email，以便我们及时为你解决问题</string>
+    <string name="feed_tv_connect">联系方式</string>
+    <string name="please_describe_your_problem">请描述你的问题</string>
+
+</resources>

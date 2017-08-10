@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 首页 咨询中心图片的选择资源文件-->
+    <item android:drawable="@drawable/menu_c"
+          android:state_checked="true"
+          android:state_enabled="true"/>
+    <item android:drawable="@drawable/menu_cc"/>
+
+</selector>

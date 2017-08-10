@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_detail" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact_way"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/et_contact"
+            android:layout_marginBottom="5dp"
+            android:text="@string/feed_tv_connect"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/contact_way"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/all_setting_list_only_bg"
+            android:focusable="true"
+            android:gravity="top"
+            android:hint="@string/please_describe_your_problem"
+            android:inputType="textMultiLine"
+            android:maxLength="1000"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dip"
+            android:scrollbars="vertical"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/et_contact"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/alert_feedback"
+            android:background="@drawable/radius_white_five"
+            android:inputType="text"
+            android:maxLength="50"
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/alert_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/feed_back_hint"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
